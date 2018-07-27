@@ -24,7 +24,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 	  }
 
 	  public String reliable() {
-	    return "Cloud Native Java (O'Reilly)";
+	    return "fallBackMethod executed";
 	  }
 
 	}
